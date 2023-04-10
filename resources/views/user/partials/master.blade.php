@@ -1,0 +1,5 @@
+@include('user.partials.head')
+@include('user.partials.header')
+@yield('content')
+@include('user.partials.modal-fade')
+@include('user.partials.footer')
