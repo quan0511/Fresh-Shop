@@ -23,7 +23,7 @@ return new class extends Migration
             $table->decimal('shipping_fee',8,1)->default(2);
             $table->enum('method',['online','cod']);
             $table->string('image')->nullable();
-            $table->enum('status',['finished','confirmed','delivery','unconfimred']);
+            $table->enum('status',['finished','confirmed','delivery','unconfimred','cancel','transaction failed']);
             $table->timestamps();
         });
     }
