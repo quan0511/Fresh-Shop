@@ -4,9 +4,9 @@
 <head>
 
     <title>FreshCart - eCommerce HTML Template</title>
-    <link href="./assets/libs/slick-carousel/slick/slick.css" rel="stylesheet" />
-    <link href="./assets/libs/slick-carousel/slick/slick-theme.css" rel="stylesheet" />
-    <link href="./assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet">
+    <link href="./css/slick.css" rel="stylesheet" />
+    <link href="./css/slick-theme.css" rel="stylesheet" />
+    <link href="./css/tiny-slider.css" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,7 +27,7 @@
     </script>
 
     <!-- Favicon icon-->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/assets/images/favicon/favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon/favicon.ico') }}">
 
 
     <!-- Libs CSS -->
@@ -38,11 +38,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="./assets/libs/simplebar/dist/simplebar.min.css" rel="stylesheet">
+    <link href="./css/simplebar.min.css" rel="stylesheet">
 
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="./assets/css/theme.min.css">
+    <link rel="stylesheet" href="./css/theme.min.css">
 
 
 </head>

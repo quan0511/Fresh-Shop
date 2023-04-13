@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="hero-slider ">
                     <div
-                        style="background: url({{ asset('/assets/images/slider/slide-1.jpg') }})no-repeat; background-size: cover; border-radius: .5rem; background-position: center;">
+                        style="background: url({{ asset('images/slider/slide-1.jpg') }})no-repeat; background-size: cover; border-radius: .5rem; background-position: center;">
                         <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                             <span class="badge text-bg-warning">Opening Sale Discount 50%</span>
 
@@ -18,7 +18,7 @@
 
                     </div>
                     <div class=" "
-                        style="background: url({{ asset('/assets/images/slider/slider-2.jpg') }})no-repeat; background-size: cover; border-radius: .5rem; background-position: center;">
+                        style="background: url({{ asset('images/slider/slider-2.jpg') }})no-repeat; background-size: cover; border-radius: .5rem; background-position: center;">
                         <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                             <span class="badge text-bg-warning">Free Shipping - orders over $100</span>
                             <h2 class="text-dark display-5 fw-bold mt-4">Free Shipping on <br> orders over <span
@@ -51,7 +51,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-dairy-bread-eggs.jpg') }}"
+                                    <img src="{{ asset('images/category/category-dairy-bread-eggs.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3 img-fluid">
                                     <div class="text-truncate">Dairy, Bread & Eggs</div>
                                 </div>
@@ -60,7 +60,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-snack-munchies.jpg') }}"
+                                    <img src="{{ asset('images/category/category-snack-munchies.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Snack & Munchies</div>
                                 </div>
@@ -69,7 +69,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-bakery-biscuits.jpg') }}"
+                                    <img src="{{ asset('images/category/category-bakery-biscuits.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Bakery & Biscuits</div>
                                 </div>
@@ -78,7 +78,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-instant-food.jpg') }}"
+                                    <img src="{{ asset('images/category/category-instant-food.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Instant Food</div>
                                 </div>
@@ -87,7 +87,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-tea-coffee-drinks.jpg') }}"
+                                    <img src="{{ asset('images/category/category-tea-coffee-drinks.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Tea, Coffee & Drinks</div>
                                 </div>
@@ -96,7 +96,7 @@
                     <div class="item"><a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-atta-rice-dal.jpg') }}"
+                                    <img src="{{ asset('images/category/category-atta-rice-dal.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Atta, Rice & Dal</div>
                                 </div>
@@ -106,7 +106,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-baby-care.jpg') }}"
+                                    <img src="{{ asset('images/category/category-baby-care.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Baby Care</div>
                                 </div>
@@ -115,7 +115,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-chicken-meat-fish.jpg') }}"
+                                    <img src="{{ asset('images/category/category-chicken-meat-fish.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Chicken, Meat & Fish</div>
                                 </div>
@@ -124,7 +124,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-cleaning-essentials.jpg') }}"
+                                    <img src="{{ asset('images/category/category-cleaning-essentials.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Cleaning Essentials</div>
                                 </div>
@@ -133,7 +133,7 @@
                     <div class="item"> <a href="{{ route('products') }}" class="text-decoration-none text-inherit">
                             <div class="card card-product mb-lg-4">
                                 <div class="card-body text-center py-8">
-                                    <img src="{{ asset('/assets/images/category/category-pet-care.jpg') }}"
+                                    <img src="{{ asset('images/category/category-pet-care.jpg') }}"
                                         alt="Grocery Ecommerce Template" class="mb-3">
                                     <div class="text-truncate">Pet Care</div>
                                 </div>
@@ -155,7 +155,7 @@
                     <div class="col-12 col-md-6 mb-3 mb-lg-0">
                         <div>
                             <div class="py-10 px-8 rounded"
-                                style="background:url({{ asset('/assets/images/banner/grocery-banner.png') }})no-repeat; background-size: cover; background-position: center;">
+                                style="background:url({{ asset('images/banner/grocery-banner.png') }})no-repeat; background-size: cover; background-position: center;">
                                 <div>
                                     <h3 class="fw-bold mb-1">Fruits & Vegetables
                                     </h3>
@@ -171,7 +171,7 @@
 
                         <div>
                             <div class="py-10 px-8 rounded"
-                                style="background:url({{ asset('/assets/images/banner/grocery-banner-2.jpg') }})no-repeat; background-size: cover; background-position: center;">
+                                style="background:url({{ asset('images/banner/grocery-banner-2.jpg') }})no-repeat; background-size: cover; background-position: center;">
                                 <div>
                                     <h3 class="fw-bold mb-1">Freshly Baked
                                         Buns
@@ -206,8 +206,7 @@
                                     <div class=" position-absolute top-0 start-0">
                                         <span class="badge bg-danger">Sale</span>
                                     </div>
-                                    <a href="#!"> <img
-                                            src="{{ asset('/assets/images/products/product-img-1.jpg') }}"
+                                    <a href="#!"> <img src="{{ asset('images/products/product-img-1.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
 
                                     <div class="card-product-action">
@@ -263,7 +262,7 @@
                                         <span class="badge bg-success">14%</span>
                                     </div>
                                     <a href="{{ route('products-details') }}"><img
-                                            src="{{ asset('/assets/images/products/product-img-2.jpg') }}"
+                                            src="{{ asset('images/products/product-img-2.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -313,7 +312,7 @@
                             <div class="card-body">
                                 <div class="text-center position-relative"> <a
                                         href="{{ route('products-details') }}"><img
-                                            src="{{ asset('/assets/images/products/product-img-3.jpg') }}"
+                                            src="{{ asset('images/products/product-img-3.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -364,7 +363,7 @@
                             <div class="card-body">
                                 <div class="text-center position-relative"> <a
                                         href="{{ route('products-details') }}"><img
-                                            src="{{ asset('/assets/images/products/product-img-4.jpg') }}"
+                                            src="{{ asset('images/products/product-img-4.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -418,7 +417,7 @@
                             <div class="card-body">
                                 <div class="text-center position-relative"> <a
                                         href="{{ route('products-details') }}"><img
-                                            src="{{ asset('/assets/images/products/product-img-5.jpg') }}"
+                                            src="{{ asset('images/products/product-img-5.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -472,8 +471,7 @@
                                     <div class=" position-absolute top-0 start-0">
                                         <span class="badge bg-danger">Sale</span>
                                     </div>
-                                    <a href="#!"> <img
-                                            src="{{ asset('/assets/images/products/product-img-6.jpg') }}"
+                                    <a href="#!"> <img src="{{ asset('images/products/product-img-6.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -524,7 +522,7 @@
                             <div class="card-body">
                                 <div class="text-center position-relative"> <a
                                         href="{{ route('products-details') }}"><img
-                                            src="{{ asset('/assets/images/products/product-img-7.jpg') }}"
+                                            src="{{ asset('images/products/product-img-7.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -574,7 +572,7 @@
                             <div class="card-body">
                                 <div class="text-center position-relative"> <a
                                         href="{{ route('products-details') }}"><img
-                                            src="{{ asset('/assets/images/products/product-img-8.jpg') }}"
+                                            src="{{ asset('images/products/product-img-8.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -626,7 +624,7 @@
                             <div class="card-body">
                                 <div class="text-center position-relative"> <a
                                         href="{{ route('products-details') }}"><img
-                                            src="{{ asset('/assets/images/products/product-img-9.jpg') }}"
+                                            src="{{ asset('images/products/product-img-9.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -677,7 +675,7 @@
                             <div class="card-body">
                                 <div class="text-center position-relative"> <a
                                         href="{{ route('products-details') }}"><img
-                                            src="{{ asset('/assets/images/products/product-img-10.jpg') }}"
+                                            src="{{ asset('images/products/product-img-10.jpg') }}"
                                             alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                     <div class="card-product-action">
                                         <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -738,7 +736,7 @@
                     <div class="row row-cols-lg-4 row-cols-1 row-cols-md-2 g-4 flex-nowrap">
                         <div class="col">
                             <div class=" pt-8 px-6 px-xl-8 rounded"
-                                style="background:url({{ asset('/assets/images/banner/banner-deal.jpg') }})no-repeat; background-size: cover; height: 470px;">
+                                style="background:url({{ asset('images/banner/banner-deal.jpg') }})no-repeat; background-size: cover; height: 470px;">
                                 <div>
                                     <h3 class="fw-bold text-white">100% Organic
                                         Coffee Beans.
@@ -754,7 +752,7 @@
                                 <div class="card-body">
                                     <div class="text-center  position-relative "> <a
                                             href="{{ route('products-details') }}"><img
-                                                src="{{ asset('/assets/images/products/product-img-11.jpg') }}"
+                                                src="{{ asset('images/products/product-img-11.jpg') }}"
                                                 alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
 
                                         <div class="card-product-action">
@@ -812,7 +810,7 @@
                                 <div class="card-body">
                                     <div class="text-center  position-relative "> <a
                                             href="{{ route('products-details') }}"><img
-                                                src="{{ asset('/assets/images/products/product-img-12.jpg') }}"
+                                                src="{{ asset('images/products/product-img-12.jpg') }}"
                                                 alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                         <div class="card-product-action">
                                             <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -868,7 +866,7 @@
                                 <div class="card-body">
                                     <div class="text-center  position-relative "> <a
                                             href="{{ route('products-details') }}"><img
-                                                src="{{ asset('/assets/images/products/product-img-13.jpg') }}"
+                                                src="{{ asset('images/products/product-img-13.jpg') }}"
                                                 alt="Grocery Ecommerce Template" class="mb-3 img-fluid"></a>
                                         <div class="card-product-action">
                                             <a href="#!" class="btn-action" data-bs-toggle="modal"
@@ -927,8 +925,8 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-3">
                         <div class="mb-8 mb-xl-0">
-                            <div class="mb-6"><img src="{{ asset('/assets/images/icons/clock.svg') }}"
-                                    alt=""></div>
+                            <div class="mb-6"><img src="{{ asset('images/icons/clock.svg') }}" alt="">
+                            </div>
                             <h3 class="h5 mb-3">
                                 10 minute grocery now
                             </h3>
@@ -938,8 +936,7 @@
                     </div>
                     <div class="col-md-6  col-lg-3">
                         <div class="mb-8 mb-xl-0">
-                            <div class="mb-6"><img src="{{ asset('/assets/images/icons/gift.svg') }}"
-                                    alt=""></div>
+                            <div class="mb-6"><img src="{{ asset('images/icons/gift.svg') }}" alt=""></div>
                             <h3 class="h5 mb-3">Best Prices & Offers</h3>
                             <p>Cheaper prices than your local supermarket, great cashback offers to top it off. Get best
                                 pricess &
@@ -949,8 +946,8 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="mb-8 mb-xl-0">
-                            <div class="mb-6"><img src="{{ asset('/assets/images/icons/package.svg') }}"
-                                    alt=""></div>
+                            <div class="mb-6"><img src="{{ asset('images/icons/package.svg') }}" alt="">
+                            </div>
                             <h3 class="h5 mb-3">Wide Assortment</h3>
                             <p>Choose from 5000+ products across food, personal care, household, bakery, veg and non-veg
                                 & other
@@ -959,8 +956,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="mb-8 mb-xl-0">
-                            <div class="mb-6"><img src="{{ asset('/assets/images/icons/refresh-cw.svg') }}"
-                                    alt="">
+                            <div class="mb-6"><img src="{{ asset('images/icons/refresh-cw.svg') }}" alt="">
                             </div>
                             <h3 class="h5 mb-3">Easy Returns</h3>
                             <p>Not satisfied with a product? Return it at the doorstep & get a refund within hours. No

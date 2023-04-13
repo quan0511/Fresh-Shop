@@ -114,24 +114,22 @@
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item text-dark">Payment Partners</li>
                         <li class="list-inline-item">
-                            <a href="#!"><img src="{{ asset('/assets/images/payment/amazonpay.svg') }}"
+                            <a href="#!"><img src="{{ asset('images/payment/amazonpay.svg') }}"
                                     alt=""></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!"><img src="{{ asset('/assets/images/payment/american-express.svg') }}"
+                            <a href="#!"><img src="{{ asset('images/payment/american-express.svg') }}"
                                     alt=""></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!"><img src="{{ asset('/assets/images/payment//mastercard.svg') }}"
+                            <a href="#!"><img src="{{ asset('images/payment//mastercard.svg') }}"
                                     alt=""></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!"><img src="{{ asset('/assets/images/payment/paypal.svg') }}"
-                                    alt=""></a>
+                            <a href="#!"><img src="{{ asset('images/payment/paypal.svg') }}" alt=""></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!"><img src="{{ asset('/assets/images/payment/visa.svg') }}"
-                                    alt=""></a>
+                            <a href="#!"><img src="{{ asset('images/payment/visa.svg') }}" alt=""></a>
                         </li>
                     </ul>
                 </div>
@@ -139,11 +137,11 @@
                     <ul class="list-inline mb-0 text-lg-end text-center">
                         <li class="list-inline-item mb-2 mb-md-0 text-dark">Get deliveries with FreshCart</li>
                         <li class="list-inline-item ms-4">
-                            <a href="#!"> <img src="{{ asset('/assets/images/appbutton/appstore-btn.svg') }}"
+                            <a href="#!"> <img src="{{ asset('images/appbutton/appstore-btn.svg') }}"
                                     alt="" style="width: 140px;"></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!"> <img src="{{ asset('/assets/images/appbutton/googleplay-btn.svg') }}"
+                            <a href="#!"> <img src="{{ asset('images/appbutton/googleplay-btn.svg') }}"
                                     alt="" style="width: 140px;"></a>
                         </li>
                     </ul>
@@ -194,20 +192,20 @@
 <!-- Javascript-->
 
 <!-- Libs JS -->
-<script src="./assets/libs/jquery/dist/jquery.min.js"></script>
-<script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./assets/libs/simplebar/dist/simplebar.min.js"></script>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('js/simplebar.min.js') }}"></script>
 
 <!-- Theme JS -->
-<script src="./assets/js/theme.min.js"></script>
-<script src="./assets/libs/jquery-countdown/dist/jquery.countdown.min.js"></script>
-<script src="./assets/js/vendors/countdown.js"></script>
-<script src="./assets/libs/slick-carousel/slick/slick.min.js"></script>
-<script src="./assets/js/vendors/slick-slider.js"></script>
-<script src="./assets/libs/tiny-slider/dist/min/tiny-slider.js"></script>
-<script src="./assets/js/vendors/tns-slider.js"></script>
-<script src="./assets/js/vendors/zoom.js"></script>
-<script src="./assets/js/vendors/increment-value.js"></script>
+<script src="{{ asset('js/theme.min.js') }}."></script>
+<script src="{{ asset('js/jquery.countdown.min.js') }}"></script>
+<script src="{{ asset('js/countdown.js') }}"></script>
+<script src="{{ asset('js/slick.min.js') }}"></script>
+<script src="{{ asset('js/slick-slider.js') }}"></script>
+<script src="{{ asset('js/tiny-slider.js') }}"></script>
+<script src="{{ asset('js/tns-slider.js') }}"></script>
+<script src="{{ asset('js/zoom.js') }}"></script>
+<script src="{{ asset('js/increment-value.js') }}"></script>
 
 
 

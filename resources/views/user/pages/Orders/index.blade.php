@@ -50,7 +50,7 @@
                                     <!-- row -->
                                     <div class="row align-items-center">
                                         <div class="col-3 col-md-2">
-                                            <!-- img --> <img src="./assets/images/products/product-img-1.jpg"
+                                            <!-- img --> <img src="{{ asset('images/products/product-img-1.jpg') }}"
                                                 alt="Ecommerce" class="img-fluid">
                                         </div>
                                         <div class="col-4 col-md-5">
@@ -105,7 +105,7 @@
                                     <!-- row -->
                                     <div class="row align-items-center">
                                         <div class="col-3 col-md-2">
-                                            <!-- img --> <img src="./assets/images/products/product-img-2.jpg"
+                                            <!-- img --> <img src="{{ asset('images/products/product-img-2.jpg') }}"
                                                 alt="Ecommerce" class="img-fluid">
                                         </div>
                                         <div class="col-4 col-md-5">
@@ -159,7 +159,7 @@
                                     <!-- row -->
                                     <div class="row align-items-center">
                                         <div class="col-3 col-md-2">
-                                            <!-- img --> <img src="./assets/images/products/product-img-3.jpg"
+                                            <!-- img --> <img src="{{ asset('images/products/product-img-3.jpg') }}"
                                                 alt="Ecommerce" class="img-fluid">
                                         </div>
                                         <div class="col-4 col-md-5">
@@ -213,7 +213,7 @@
                                     <!-- row -->
                                     <div class="row align-items-center">
                                         <div class="col-3 col-md-2">
-                                            <!-- img --> <img src="./assets/images/products/product-img-4.jpg"
+                                            <!-- img --> <img src="{{ asset('images/products/product-img-4.jpg') }}"
                                                 alt="Ecommerce" class="img-fluid">
                                         </div>
                                         <div class="col-4 col-md-5">
@@ -267,7 +267,7 @@
                                     <!-- row -->
                                     <div class="row align-items-center">
                                         <div class="col-3 col-md-2">
-                                            <!-- img --> <img src="./assets/images/products/product-img-5.jpg"
+                                            <!-- img --> <img src="{{ asset('images/products/product-img-5.jpg') }}"
                                                 alt="Ecommerce" class="img-fluid">
                                         </div>
                                         <div class="col-4 col-md-5">

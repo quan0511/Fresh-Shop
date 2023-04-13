@@ -19,13 +19,12 @@
             <div class="row w-100 align-items-center gx-lg-2 gx-0">
                 <div class="col-xxl-2 col-lg-3">
                     <a class="navbar-brand d-none d-lg-block" href="{{ route('index') }}">
-                        <img src="{{ asset('/assets/images/logo/freshcart-logo.svg') }}" alt="eCommerce HTML Template">
+                        <img src="{{ asset('images/logo/freshcart-logo.svg') }}" alt="eCommerce HTML Template">
 
                     </a>
                     <div class="d-flex justify-content-between w-100 d-lg-none">
                         <a class="navbar-brand" href="{{ route('index') }}">
-                            <img src="{{ asset('/assets/images/logo/freshcart-logo.svg') }}"
-                                alt="eCommerce HTML Template">
+                            <img src="{{ asset('images/logo/freshcart-logo.svg') }}" alt="eCommerce HTML Template">
 
                         </a>
 
@@ -244,7 +243,7 @@
             </div>
             <div class="offcanvas offcanvas-start p-4 p-lg-0" id="navbar-default">
                 <div class="d-flex justify-content-between align-items-center mb-2 d-block d-lg-none">
-                    <a href="{{ route('index') }}"><img src="{{ asset('/assets/images/logo/freshcart-logo.svg') }}"
+                    <a href="{{ route('index') }}"><img src="{{ asset('images/logo/freshcart-logo.svg') }}"
                             alt="eCommerce HTML Template"></a>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
@@ -551,8 +550,8 @@
                     <!-- row -->
                     <div class="row align-items-center">
                         <div class="col-3 col-md-2">
-                            <!-- img --> <img src="{{ asset('/assets/images/products/product-img-1.jpg') }}"
-                                alt="Ecommerce" class="img-fluid">
+                            <!-- img --> <img src="{{ asset('images/products/product-img-1.jpg') }}" alt="Ecommerce"
+                                class="img-fluid">
                         </div>
                         <div class="col-4 col-md-6 col-lg-5">
                             <!-- title -->
@@ -604,8 +603,8 @@
                     <!-- row -->
                     <div class="row align-items-center">
                         <div class="col-3 col-md-2">
-                            <!-- img --> <img src="{{ asset('/assets/images/products/product-img-2.jpg') }}"
-                                alt="Ecommerce" class="img-fluid">
+                            <!-- img --> <img src="{{ asset('images/products/product-img-2.jpg') }}" alt="Ecommerce"
+                                class="img-fluid">
                         </div>
                         <div class="col-4 col-md-6 col-lg-5">
                             <!-- title -->
@@ -656,8 +655,8 @@
                     <!-- row -->
                     <div class="row align-items-center">
                         <div class="col-3 col-md-2">
-                            <!-- img --> <img src="{{ asset('/assets/images/products/product-img-3.jpg') }}"
-                                alt="Ecommerce" class="img-fluid">
+                            <!-- img --> <img src="{{ asset('images/products/product-img-3.jpg') }}" alt="Ecommerce"
+                                class="img-fluid">
                         </div>
                         <div class="col-4 col-md-6 col-lg-5">
                             <!-- title -->
@@ -708,8 +707,8 @@
                     <!-- row -->
                     <div class="row align-items-center">
                         <div class="col-3 col-md-2">
-                            <!-- img --> <img src="{{ asset('/assets/images/products/product-img-4.jpg') }}"
-                                alt="Ecommerce" class="img-fluid">
+                            <!-- img --> <img src="{{ asset('images/products/product-img-4.jpg') }}" alt="Ecommerce"
+                                class="img-fluid">
                         </div>
                         <div class="col-4 col-md-6 col-lg-5">
                             <!-- title -->
@@ -760,8 +759,8 @@
                     <!-- row -->
                     <div class="row align-items-center">
                         <div class="col-3 col-md-2">
-                            <!-- img --> <img src="{{ asset('/assets/images/products/product-img-5.jpg') }}"
-                                alt="Ecommerce" class="img-fluid">
+                            <!-- img --> <img src="{{ asset('images/products/product-img-5.jpg') }}" alt="Ecommerce"
+                                class="img-fluid">
                         </div>
                         <div class="col-4 col-md-6 col-lg-5">
                             <!-- title -->
