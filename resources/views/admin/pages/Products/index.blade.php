@@ -71,7 +71,7 @@
                                                 <td>{{ $item->id_product }}</td>
                                                 <td>
                                                     @foreach ($item->libraries as $library)
-                                                        <img src="{{ asset('assets/images/products/' . $library->image) }}"
+                                                        <img src="{{ asset('images/products/' . $library->image) }}"
                                                             alt="" style="width:70px; height:auto;">
                                                     @endforeach
                                                 </td>

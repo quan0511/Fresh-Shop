@@ -8,44 +8,9 @@
                     <div class="col-6">
                         <!-- list -->
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Vegetables &
-                                    Fruits</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link"> Breakfast & instant
-                                    food</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link"> Bakery &
-                                    Biscuits</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Atta, rice & dal</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Sauces & spreads</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Organic & gourmet</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link"> Baby care</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Cleaning
-                                    essentials</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Personal care</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                        <!-- list -->
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Dairy, bread &
-                                    eggs</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link"> Cold drinks &
-                                    juices</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link"> Tea, coffee &
-                                    drinks</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Masala, oil &
-                                    more</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Chicken, meat &
-                                    fish</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Paan corner</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link"> Pharma &
-                                    wellness</a></li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Home & office</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Pet care</a></li>
+                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Vegetable</a></li>
+                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Fruit</a></li>
+                            <li class="nav-item mb-2"><a href="#!" class="nav-link">Meat</a></li>
                         </ul>
                     </div>
                 </div>
@@ -114,8 +79,7 @@
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item text-dark">Payment Partners</li>
                         <li class="list-inline-item">
-                            <a href="#!"><img src="{{ asset('images/payment/amazonpay.svg') }}"
-                                    alt=""></a>
+                            <a href="#!"><img src="{{ asset('images/payment/amazonpay.svg') }}" alt=""></a>
                         </li>
                         <li class="list-inline-item">
                             <a href="#!"><img src="{{ asset('images/payment/american-express.svg') }}"
@@ -151,9 +115,8 @@
         </div>
         <div class="border-top py-4">
             <div class="row align-items-center">
-                <div class="col-md-6"><span class="small text-muted">Copyright 2023 © FreshCart eCommerce HTML
-                        Template. All rights reserved. Powered by <a
-                            href="https://codescandy.com/">Codescandy</a>.</span></div>
+                <div class="col-md-6"><span class="small text-muted">Copyright 2023 © FreshShop eCommerce. All rights
+                        reserved. Powered by <a href="#">FreshShop</a>.</span></div>
                 <div class="col-md-6">
                     <ul class="list-inline text-md-end mb-0 small mt-3 mt-md-0">
                         <li class="list-inline-item text-muted">Follow us on</li>
@@ -190,25 +153,3 @@
 </footer>
 
 <!-- Javascript-->
-
-<!-- Libs JS -->
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('js/simplebar.min.js') }}"></script>
-
-<!-- Theme JS -->
-<script src="{{ asset('js/theme.min.js') }}."></script>
-<script src="{{ asset('js/jquery.countdown.min.js') }}"></script>
-<script src="{{ asset('js/countdown.js') }}"></script>
-<script src="{{ asset('js/slick.min.js') }}"></script>
-<script src="{{ asset('js/slick-slider.js') }}"></script>
-<script src="{{ asset('js/tiny-slider.js') }}"></script>
-<script src="{{ asset('js/tns-slider.js') }}"></script>
-<script src="{{ asset('js/zoom.js') }}"></script>
-<script src="{{ asset('js/increment-value.js') }}"></script>
-
-
-
-</body>
-
-</html>
